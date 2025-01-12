@@ -1,0 +1,13 @@
+[project]
+name = "bikeshed-nyc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dbt>=1.0.0.38.23",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
